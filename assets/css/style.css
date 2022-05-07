@@ -37,11 +37,19 @@ h1{
 }
 
 .opcoes button{
-    height: 30px;
     cursor: pointer;
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    height: 35px;
+    cursor: pointer;
+    margin-right: 25px;
+    border-radius: 5px;
 }
 
-form button:hover{
+button:hover{
     background: var(--primary-color-darker);
 }
 
